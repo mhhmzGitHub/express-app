@@ -1,0 +1,33 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "app.js",
+  "scripts": {
+    "start": "nodemon -r dotenv/config index",
+    "lint": "eslint --format table --fix ."
+  },
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "lodash.merge": "^4.6.2",
+    "mongoose": "^5.8.9",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "prettier": {
+    "semi": false,
+    "userTabs": true,
+    "singleQuote": true
+  }
+}
