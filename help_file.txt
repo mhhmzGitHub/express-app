@@ -1,0 +1,23 @@
+•	Login to Github
+•	https://github.com/mhhmzGitHub
+•	Create New Repo with readme file
+•	Repo:  Express-app
+•	Goto directory you need to work on it
+•	My project directory is c:/mh   remark my work directory in example
+•	is c:/users/pc-101/Documents/GitHub/express-app
+•	Press ctrl Right and select bash her
+•	C:\mh> git clone origin  https://github.com/mhhmzGitHub/express-app.git
+•	$  cd express-app
+•	$ git status
+
+•	$ git add .
+•	$ git reset head <file you not need it>
+•	$ git commit -m "Created Project Structure"
+
+•	$ git status
+
+•	$ git branch
+
+•	$ git push origin master
+
+•	Open Github and refresh
