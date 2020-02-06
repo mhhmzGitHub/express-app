@@ -21,3 +21,36 @@
 •	$ git push origin master
 
 •	Open Github and refresh
+
+3.2
+----------
+https://httpie.org
+https://httpie.org/doc#installation
+https://pip.pypa.io/en/stable/installing/
+https://www.python.org/downloads/release/python-381/
+
+# Make sure we have an up-to-date version of pip and setuptools:
+$ pip install --upgrade pip setuptools
+
+$ pip install --upgrade httpie
+
+3.3
+------
+ 
+ $ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   help_file.txt
+        modified:   package.json
+        modified:   src/app.js
+        modified:   src/resources/users/user.router.js
+        modified:   src/router.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git add .
+
+
