@@ -6,8 +6,7 @@ userRouter
     .route('/')
     .get(userController.getUsers)
     .post(userController.createaUser)
- 
-
-userRouter.get('/:id', (req, res) => {
-    res.send(`User id is: ${req.params.id}`)
-})
+    
+userRouter
+    .route('/:id')
+    .put(userController.updateUser)

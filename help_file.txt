@@ -78,4 +78,32 @@ ms-azuretools.vscode-cosmosdb
 
 https://httpstatuses.com/
 
+4.3
+----
+go to PS C:\Users\PC-101\Documents\GitHub\
+and click rigth choose bash her
+PC-101@DESKTOP-E973K25 MINGW64 ~/Documents/GitHub/express-app (master)
+$ git add .
+$ git commit -m "CRUD getUser()"
+[master a829b5b] CRUD getUser()
+ 7 files changed, 85 insertions(+), 3 deletions(-)
+$ git push origin master
+Enumerating objects: 23, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (12/12), 2.08 KiB | 1.04 MiB/s, done.
+Total 12 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6/6), completed with 6 local objects.
+To https://github.com/mhhmzGitHub/express-app.git
+   37c290e..a829b5b  master -> master
+--------------------------------------------------------------------------
+4.4
+-----
+https://mongoosejs.com/docs/documents.html
+https://mongoosejs.com/docs/models.html
+
+
+
+
 
