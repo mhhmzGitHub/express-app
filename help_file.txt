@@ -156,6 +156,52 @@ $ git add .
 $ git commit -m "hash password"
 
 $ git push origin master
+PC-101@DESKTOP-E973K25 MINGW64 ~/Documents/GitHub/express-app (master)
+$ git add .
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+
+PC-101@DESKTOP-E973K25 MINGW64 ~/Documents/GitHub/express-app (master)
+$ git commit -m "hash password"
+[master 97b9b66] hash password
+ 6 files changed, 62 insertions(+), 8 deletions(-)
+
+PC-101@DESKTOP-E973K25 MINGW64 ~/Documents/GitHub/express-app (master)
+$ git push origin master
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (11/11), 1.65 KiB | 1.65 MiB/s, done.
+Total 11 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas: 100% (7/7), completed with 7 local objects.
+To https://github.com/mhhmzGitHub/express-app.git
+   8d70c23..97b9b66  master -> master
+
+PC-101@DESKTOP-E973K25 MINGW64 ~/Documents/GitHub/express-app (master)
+---------------------------------
+4.9
+-----
+https://www.npmjs.com/package/joi
+
+> npm i @hapi/joi
+  "@hapi/joi": "^17.1.0",
+> npm uninstall "@hapi/joi": "^17.1.0"
+ "@hapi/joi": "^15.1.1",
+> npm install "@hapi/joi": "^15.1.1"
+
+> npm uninstall @hapi/joi@17.1.0
+> npm install @hapi/joi@15.1.1
+
+$ git status
+
+$ git add .
+
+$ git commit -m "Scurity: validate user input with @hapi/joi@15.1.1"
+
+$ git push origin master
 
 
 
